@@ -4,10 +4,348 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <section id="home">
+    <div class="w-full h-screen">
+        <div class="bg-[url(img/home.jpg)] px-[7%] bg-cover bg-center bg-no-repeat h-screen">
+            <div class="hamburger-menu">
+                <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+                <label for="menu-icon"></label>
+                <nav class="nav">     
+                  <ul class="pt-5">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact US</a></li>
+                  </ul>
+                </nav>
+            </div>
+            <div class="h-screen w-full text-white flex flex-col items-center justify-center gap-4">
+                <div class="font-extrabold font-[Ranchers] text-[26px] lg:text-7xl lg:tracking-widest text-center">
+                    <h1>Temukan Ide <span class="text-yellow-300">Brilian</span> <br> Jadilah <span class="text-yellow-300">Seniman</span> <span class="text-yellow-300">Kreatif!</span></h1>
+                </div>
+                <div class="text-center text-sm mb-2">
+                    <p>Setiap karya seni dimulai dari sebuah ide. Di sini, kami percaya bahwa setiap orang memiliki potensi untuk menjadi kreatif</p>
+                </div>
+                <div>
+                    <a href="#home" class="px-4 py-1 text-white bg-gradient-to-r from-[#00C6FF] to-[#0072FF] rounded-sm">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="px-[7%] bg-black py-20">
+      <div class="text-white">
+        <div class="flex flex-col gap-4">
+          <div class="text-xl font-extrabold">
+            <h1><span class="text-yellow-300">KOLABORASI</span> UNTUK KREASI MENGINSPIRASI LEWAT SENI DAN DESAIN</h1>
+          </div>
+          <div class="text-justify">
+            <p>Di platform ini, kami percaya bahwa kolaborasi adalah kunci untuk menciptakan karya seni yang luar biasa. Dengan menggabungkan ide dan kreativitas dari berbagai seniman dan desainer, kita dapat menghasilkan kreasi yang penuh makna dan inspirasi. Bergabunglah dengan kami, temukan inspirasi, dan ciptakan karya yang tak terlupakan.</p>
+          </div>
+          <a href="" class="w-36 px-4 py-1 text-center text-white bg-gradient-to-r from-[#00C6FF] to-[#0072FF] rounded-sm">Explore</a>  
+        </div>
+        <div class="mt-12 grid grid-cols-2 place-items-center gap-3 mx-auto">
+          <img src="../dist/img/About/image1.png" class="mt-7" alt="" width="140px">
+          <img src="../dist/img/About/image4.png" alt="" width="160px">
+          <img src="../dist/img/About/image3.png" class="mt-[-32px]" width="160px">
+          <img src="../dist/img/About/image2.png" alt="" width="160px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="famous">
+    <div class="px-[7%] py-20 bg-gradient-to-t from-[#43CEA2] to-[#185A9D]">
+      <div class="text-white">
+        <div class="flex flex-col items-center justify-center gap-6">
+          <h1 class="text-2xl text-center font-extrabold ">Seniman Terkenal di Dunia</h1>
+          <p class="text-center text-xs">Mereka yang terkenal dengan karya - karyanya yang begitu menakjubkan dan bisa menjadi aktor yang menginspirasi bagi seniman lainnya</p>
+          <div class="flex flex-wrap justify-center gap-3  text-center">
+            <a href="" class="px-3 bg-slate-600 rounded-2xl">Art</a>
+            <a href="" class="px-3 bg-slate-600 rounded-2xl">Puisi</a>
+            <a href="" class="px-3 bg-slate-600 rounded-2xl">Musik</a>
+            <a href="" class="px-3 bg-slate-600 rounded-2xl">Desain</a>
+            <a href="" class="px-3 bg-slate-600 rounded-2xl">Fotografi</a>
+          </div>
+        </div>
+        <div class="swiper mySwiper bg-[#222831] mt-8 rounded-md">
+          <div class="swiper-wrapper">
+            <div class="flex flex-col p-4 rounded-md swiper-slide">
+              <div class="flex justify-center">
+                <img src="../dist/img/famous/Cigharvey.png" alt="">
+              </div>
+              <div class="flex flex-col items-center gap-4 mt-2 mb-2">
+                <h1 class="font-extrabold text-xl text-center">Cig Harvey</h1>
+                <h2 class="text-center">Seniman dan Penulis</h2>
+                <p class="text-sm text-justify">menggunakan gambar dan bahasa untuk mengeksplorasi pengalaman sensorik dan mengangkat kehidupan sehari-hari.</p>
+              </div>
+            </div>
+            <div class="flex flex-col p-4 rounded-md swiper-slide">
+              <div class="flex justify-center">
+                <img src="../dist/img/famous/Cigharvey.png" alt="">
+              </div>
+              <div class="flex flex-col items-center gap-4 mt-2">
+                <h1 class="font-extrabold text-xl text-center">Cig Harvey</h1>
+                <h2 class="text-center">Seniman dan Penulis</h2>
+                <p class="text-sm text-justify">menggunakan gambar dan bahasa untuk mengeksplorasi pengalaman sensorik dan mengangkat kehidupan sehari-hari.</p>
+              </div>
+            </div>
+            <div class="flex flex-col p-4 rounded-md swiper-slide">
+              <div class="flex justify-center">
+                <img src="../dist/img/famous/Cigharvey.png" alt="">
+              </div>
+              <div class="flex flex-col items-center gap-4 mt-2">
+                <h1 class="font-extrabold text-xl text-center">Cig Harvey</h1>
+                <h2 class="text-center">Seniman dan Penulis</h2>
+                <p class="text-sm text-justify">menggunakan gambar dan bahasa untuk mengeksplorasi pengalaman sensorik dan mengangkat kehidupan sehari-hari.</p>
+              </div>
+            </div>
+            <div class="flex flex-col p-4 rounded-md swiper-slide">
+              <div class="flex justify-center">
+                <img src="../dist/img/famous/Cigharvey.png" alt="">
+              </div>
+              <div class="flex flex-col items-center gap-4 mt-2">
+                <h1 class="font-extrabold text-xl text-center">Cig Harvey</h1>
+                <h2 class="text-center">Seniman dan Penulis</h2>
+                <p class="text-sm text-justify">menggunakan gambar dan bahasa untuk mengeksplorasi pengalaman sensorik dan mengangkat kehidupan sehari-hari.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination mt-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="kategori">
+    <div class="px-[7%] bg-[#222831] py-8 text-white">
+      <div class="swiper mySwipers">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+          <div class="swiper-slide">
+            <img src="../dist//img/kategori/Picture1.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div class="mt-4 text-xl font-bold">
+          <h1>KATEGORI YANG COCOK BUAT ANDA</h1>
+        </div>
+        <div class="grid grid-cols-2 gap-4 text-center ">
+          <div class="flex flex-col items-center rounded-sm p-1 bg-gradient-to-r from-[#B24592] to-[#F15F79]">
+            <img src="../dist/img/kategori/graphic-designer_8448433 (1).png" alt="" width="158" height="158">
+            <h2>Seni Fotografi dan Puisi</h2>
+            <div class="bg-black my-1 py-1 rounded-sm text-sm w-full">
+              <a href="">Explore</a>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-sm p-1 bg-gradient-to-r from-[#A739CD] to-[#30E6DB]">
+            <img src="../dist/img/kategori/painting_8848973 1.png" alt="">
+            <h2 class="">Desain Grafis dan Musik</h2>
+            <div class="bg-black my-1 py-1 rounded-sm text-sm w-full">
+              <a href="">Explore</a>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-sm p-1 bg-gradient-to-r from-[#1B30F0] to-[#6DF2EA]">
+            <img src="../dist/img/kategori/picture_2579499 1.png" alt="">
+            <h2>Desain Grafis dan Musik</h2>
+            <div class="bg-black my-1 py-1 rounded-sm text-sm w-full">
+              <a href="">Explore</a>
+            </div>
+          </div>
+          <div class="flex flex-col items-center rounded-sm p-1 bg-gradient-to-r from-[#76B852] to-[#8DC26F]">
+            <img src="../dist/img/kategori/unicorn_6358383 1.png" alt="">
+            <h2>Desain Grafis dan Musik</h2>
+            <div class="bg-black my-1 py-1 rounded-sm text-sm w-full">
+              <a href="">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <div class="px-[7%] bg-gradient-to-t from-[#136A8A] to-[#267871] py-10">
+      <div class="flex flex-col gap-4 text-white">
+        <div class="font-poppins font-extrabold text-2xl">
+          <h1>Seni <span class="text-yellow-300">Fotografi</span> dan <span class="text-yellow-300">Puisi</span> </h1>
+          <hr class="w-[314px] mt-2">
+        </div>
+        <div class="swipersx mySwipersx">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide h-96">
+              <div class="center">
+                <div class="property-card">
+                  <a href="#">
+                    <div class="property-image">
+                      <div class="property-image-title">
+                        <a href="" class="bg-slate-600 opacity-70 px-6 text-white rounded">Detail</a>
+                      </div>
+                    </div></a>
+                  <div class="property-description text-black">
+                    <h5>The Americans</h5>
+                    <p>Robert Frank</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide h-96">
+              <div class="center">
+                <div class="property-card">
+                  <a href="#">
+                    <div class="property-image1">
+                      <div class="property-image-title">
+                        <a href="" class="bg-slate-600 font-semibold px-6 py-1 text-white rounded">Detail</a>
+                      </div>
+                    </div></a>
+                  <div class="property-description text-black">
+                    <h5>Running Towards Us</h5>
+                    <p>Cig Harvey</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide h-96">
+              <div class="center">
+                <div class="property-card">
+                  <a href="#">
+                    <div class="property-image2">
+                      <div class="property-image-title">
+                        <a href="" class="bg-slate-600 opacity-70 px-6 text-white rounded">Detail</a>
+                      </div>
+                    </div></a>
+                  <div class="property-description text-black">
+                    <h5>The Suffering of Light</h5>
+                    <p>Alex Webb</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide h-96">
+              <div class="center">
+                <div class="property-card">
+                  <a href="#">
+                    <div class="property-image3">
+                      <div class="property-image-title">
+                        <a href="" class="bg-slate-600 opacity-70 px-6 text-white rounded">Detail</a>
+                      </div>
+                    </div></a>
+                  <div class="property-description text-black">
+                    <h5>Dua Bulan di Matamu</h5>
+                    <p>Reggie Virgionilla</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide h-96">
+              <div class="center">
+                <div class="property-card">
+                  <a href="#">
+                    <div class="property-image4">
+                      <div class="property-image-title">
+                        <a href="" class="bg-slate-600 opacity-70 px-6 text-white rounded">Detail</a>
+                      </div>
+                    </div></a>
+                  <div class="property-description text-black">
+                    <h5>Lights on the South Side </h5>
+                    <p>Numero</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+     const swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+
+      const progressCircle = document.querySelector(".autoplay-progress svg");
+      const progressContent = document.querySelector(".autoplay-progress span");
+      const swipers = new Swiper(".mySwipers", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        },
+        on: {
+          autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+          }
+        }
+      });
+
+      const swipersx = new Swiper(".mySwipersx", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 </body>
 </html>

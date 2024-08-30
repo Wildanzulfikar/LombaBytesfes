@@ -4,12 +4,15 @@
   "description": "",
   "main": "./dist/index.html",
   "scripts": {
-    "dev" : "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "keywords": [], 
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "swiper": "^11.1.10"
   }
 }
