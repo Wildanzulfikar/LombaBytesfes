@@ -609,10 +609,6 @@ video {
   margin-top: 3rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-24 {
   margin-top: 6rem;
 }
@@ -653,14 +649,6 @@ video {
   margin-top: 30px;
 }
 
-.mb-\[20px\] {
-  margin-bottom: 20px;
-}
-
-.mt-\[90px\] {
-  margin-top: 90px;
-}
-
 .block {
   display: block;
 }
@@ -685,10 +673,6 @@ video {
   height: 100vh;
 }
 
-.h-\[1px\] {
-  height: 1px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -701,24 +685,12 @@ video {
   width: 24rem;
 }
 
-.w-\[290px\] {
-  width: 290px;
-}
-
-.w-\[356px\] {
-  width: 356px;
-}
-
 .w-\[60px\] {
   width: 60px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[500px\] {
-  width: 500px;
 }
 
 .resize {
@@ -844,11 +816,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#767373\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(118 115 115 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(img\/home\.jpg\)\] {
@@ -1027,11 +994,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
@@ -1148,10 +1110,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[64px\] {
-  font-size: 64px;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1213,6 +1171,12 @@ video {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 * {
@@ -1329,7 +1293,7 @@ body {
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
-  background-color: rgba(0,0,0, .5);
+  background-color: #353746;
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),  
               right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -2070,6 +2034,11 @@ h5
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-cyan-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-gradient-to-r:hover {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -2082,6 +2051,11 @@ h5
 
 .hover\:to-blue-800:hover {
   --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
+}
+
+.hover\:text-cyan-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-800:hover {

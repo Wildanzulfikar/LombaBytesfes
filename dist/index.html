@@ -13,12 +13,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></head>
 <body>
   <section id="home">
     <div class="w-full h-screen">
         <div class="bg-[url(img/home.jpg)] px-[7%] bg-cover bg-center bg-no-repeat h-screen">
-          <nav class="pt-9">
+          <nav class="pt-9" data-aos="fade-down" data-aos-duration="1000">
             <div class="bg-white w-1/2 py-5 m-auto items-center flex justify-around rounded-full">
               <div class="font-black font-[AbrilFatface] text-3xl">
                 <h1>Perintis</h1>
@@ -28,7 +29,7 @@
                   <li><a href="#home" class="hover:bg-black py-2 px-2 rounded-2xl hover:text-white">Home</a></li>
                   <li><a href="#gallery" class="hover:bg-black py-2 px-2 rounded-2xl hover:text-white">Gallery</a></li>
                   <li><a href="#about" class="hover:bg-black py-2 px-2 rounded-2xl hover:text-white">About</a></li>
-                  <li><a href="#contact us" class="hover:bg-black py-2 px-2 rounded-2xl hover:text-white">Contact Us</a></li>
+                  <li><a href="#contactus" class="hover:bg-black py-2 px-2 rounded-2xl hover:text-white">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -41,18 +42,18 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#gallery">Gallery</a></li> 
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact US</a></li>
+                    <li><a href="#contactus">Conctact Us</a></li>
                   </ul>
                 </nav>
             </div>
-            <div class="h-screen w-full text-white flex flex-col mt-24 items-center lg:mt-24 gap-4">
-                <div class="  font-extrabold font-[Ranchers] text-[24px] lg:text-7xl md:text-5xl tracking-widest lg:leading-relaxed md:leading-relaxed text-center">
+            <div class="h-screen w-full text-white flex flex-col mt-24 items-center lg:mt-24 gap-4" >
+                <div class="  font-extrabold font-[Ranchers] text-[24px] lg:text-7xl md:text-5xl tracking-widest lg:leading-relaxed md:leading-relaxed text-center" data-aos="fade-right" data-aos-duration="500">
                     <h1>Temukan Ide <span class="text-yellow-300">Brilian</span> <br> Jadilah <span class="text-yellow-300">Seniman</span> <span class="text-yellow-300">Kreatif!</span></h1>
                 </div>
-                <div class="text-center mb-2">
+                <div class="text-center mb-2" data-aos="fade-left" data-aos-duration="500">
                     <p class="text-[12px] lg:mx-64 lg:text-lg font-medium">Setiap karya seni dimulai dari sebuah ide. Di sini, kami percaya bahwa setiap orang memiliki potensi untuk menjadi kreatif</p>
                 </div>
-                <div class="lg:mt-4">
+                <div class="lg:mt-4" data-aos="fade-up" data-aos-duration="1500">
                     <a href="#about" class="px-4 py-1 font-medium text-base lg:text-lg lg:px-7 lg:py-3 text-white bg-gradient-to-r from-[#00C6FF] to-[#0072FF] hover:bg-gradient-to-r hover:from-sky-700 hover:to-blue-800 rounded-sm">Get Started</a>
                 </div>
             </div>
@@ -60,18 +61,18 @@
     </div>
   </section>
   <section id="about">
-    <div class="px-[7%] bg-black py-36">
+    <div class="px-[7%] bg-[#222831] py-36">
       <div class="text-white lg:grid lg:grid-cols-2">
         <div class="flex flex-col gap-4 lg:gap-8">
-          <div class="text-xl lg:text-5xl font-extrabold">
+          <div class="text-xl lg:text-5xl font-extrabold" data-aos="fade-right" data-aos-duration="1000">
             <h1><span class="text-yellow-300 font-[RubikWetPaint]">KOLABORASI</span> UNTUK KREASI MENGINSPIRASI LEWAT SENI DAN DESAIN</h1>
           </div>
-          <div class="text-justify">
+          <div class="text-justify" data-aos="flip-left" data-aos-duration="1500">
             <p class="lg:text-xl">Di platform ini, kami percaya bahwa kolaborasi adalah kunci untuk menciptakan karya seni yang luar biasa. Dengan menggabungkan ide dan kreativitas dari berbagai seniman dan desainer, kita dapat menghasilkan kreasi yang penuh makna dan inspirasi. Bergabunglah dengan kami, temukan inspirasi, dan ciptakan karya yang tak terlupakan.</p>
           </div>
-          <a href="#famous" class="w-36 px-4 py-2 font-semibold text-center text-white hover:bg-black bg-gradient-to-r from-[#00C6FF] to-[#0072FF] hover:bg-gradient-to-r hover:from-sky-700 hover:to-blue-800 rounded-sm">Explore</a>  
+          <a data-aos="fade-up" data-aos-duration="1500" href="#famous" class="w-36 px-4 py-2 font-semibold text-center text-white hover:bg-black bg-gradient-to-r from-[#00C6FF] to-[#0072FF] hover:bg-gradient-to-r hover:from-sky-700 hover:to-blue-800 rounded-sm">Explore</a>  
         </div>
-        <div class="mt-12 grid grid-cols-2 place-items-center gap-3 mx-auto">
+        <div class="mt-12 grid grid-cols-2 place-items-center gap-3 mx-auto" data-aos="fade-right" data-aos-duration="2000">
           <img src="../dist/img/About/image1.png" class="mt-7" alt="" width="140px">
           <img src="../dist/img/About/image4.png" alt="" width="160px">
           <img src="../dist/img/About/image3.png" class="mt-[-32px]" width="160px">
@@ -84,17 +85,27 @@
     <div class="px-[7%] py-20 lg:py-36 bg-gradient-to-t from-[#43CEA2] to-[#185A9D]">
       <div class="text-white">
         <div class="flex flex-col items-center justify-center gap-6 lg:gap-8">
-          <h1 class="text-2xl lg:text-5xl text-center font-extrabold font-[Poppins]">Seniman Terkenal di Dunia</h1>
-          <p class="text-center text-xs lg:text-xl lg:w-1/2">Mereka yang terkenal dengan karya - karyanya yang begitu menakjubkan dan bisa menjadi aktor yang menginspirasi bagi seniman lainnya</p>
+          <h1 class="text-2xl lg:text-5xl text-center font-extrabold font-[Poppins]" data-aos="zoom-in" data-aos-duration="1000">Seniman Terkenal di Dunia</h1>
+          <p class="text-center text-xs lg:text-xl lg:w-1/2" data-aos="zoom-out-up" data-aos-duration="500">Mereka yang terkenal dengan karya - karyanya yang begitu menakjubkan dan bisa menjadi aktor yang menginspirasi bagi seniman lainnya</p>
           <div class="flex flex-wrap justify-center gap-3  text-center">
-            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl">Art</a>
-            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl">Puisi</a>
-            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl">Musik</a>
-            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl">Desain</a>
-            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl">Fotografi</a>
+            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Art</a>
+            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Puisi</a>
+            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Musik</a>
+            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Desain</a>
+            <a href="" class="px-3 lg:px-4 lg:py-1 bg-slate-600 rounded-2xl" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Fotografi</a>
           </div>
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperx mt-8">
-          <div class="parallax-bg" style="background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);" data-swiper-parallax="-23%"></div>
+          <div class="parallax-bg" style="background-color: #222831;" data-swiper-parallax="-23%"></div>
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="grid lg:grid-cols-2">
@@ -185,23 +196,20 @@
     </div>
   </section>
   <section id="kategori" class="h-full">
-    <div class="px-[7%] bg-[#222831] py-8 text-white">
+    <div class="px-[7%] bg-[#222831] py-24 text-white">
       <div class="swiper mySwipers ">
         <div class="swiper-wrapper">
           <div class="swiper-slide father">
-            <img src="../dist//img/kategori/Picture1.jpg" alt="">
+            <img src="../dist/img/Cover/Cover Radiohead.jpg" alt="">
           </div>
           <div class="swiper-slide">
-            <img src="../dist//img/desainFashionandDigital/Project Jacquard - Google dan Levi’s.jpg" alt="">
+            <img src="../dist/img/Cover/Cover Saint Laurent.jpg" alt="">
           </div>
           <div class="swiper-slide">
-            <img src="../dist//img/desainggrafisdanmusik/Fell in Love With a Girl – The White Stripes.jpg" alt="">
+            <img src="../dist/img/Cover/Cover The Americans.jpg" alt="">
           </div>
           <div class="swiper-slide">
-            <img src="../dist//img/KolaborasiSeniFashiondanFotografi/Guy Bourdin & Charles Jourdan.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="../dist//img/senifotografipuisi/Picture4.jpg" alt="">
+            <img src="../dist/img/Cover/maxresdefault.jpg" alt="">
           </div>
         </div>
         <div class="swiper-button-next"></div>
@@ -215,36 +223,40 @@
         </div>
       </div>
       <div class="flex flex-col gap-4">
-        <div class="text-3xl my-8 font-bold">
-          <h1>KATEGORI YANG COCOK BUAT ANDA</h1>
+        <div class="text-3xl my-8 font-bold" data-aos-duration="1000" data-aos="fade-right">
+          <h1><span class="text-yellow-300">KATEGORI</span> YANG COCOK BUAT ANDA</h1>
         </div>
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center ">
-          <div class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#B24592] to-[#F15F79]">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" data-aos-duration="1000" class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#B24592] to-[#F15F79]">
             <img src="../dist/img/kategori/graphic-designer_8448433 (1).png" alt="" width="158" height="158">
-            <h2>Seni Fotografi dan Puisi</h2>
-            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full">
-              <a href="">Explore</a>
+            <h2 class="font-semibold text-xl">Seni Fotografi dan Puisi</h2>
+            <div class="bg-black my-2 py-2 rounded-sm font-medium text-sm w-full hover:bg-cyan-500">
+              <a href="#fotografidanmusik">Explore</a>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#A739CD] to-[#30E6DB]">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" data-aos-duration="1500" class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#A739CD] to-[#30E6DB]">
             <img src="../dist/img/kategori/painting_8848973 1.png" alt="">
-            <h2 class="">Desain Grafis dan Musik</h2>
-            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full">
-              <a href="">Explore</a>
+            <h2 class="font-semibold text-xl">Desain Grafis dan Musik</h2>
+            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full hover:bg-cyan-500">
+              <a href="#desaingrafisdanmusik">Explore</a>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#1B30F0] to-[#6DF2EA]">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" data-aos-duration="2000" class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#1B30F0] to-[#6DF2EA]">
             <img src="../dist/img/kategori/picture_2579499 1.png" alt="">
-            <h2>Desain Grafis dan Musik</h2>
-            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full">
-              <a href="">Explore</a>
+            <h2 class="font-semibold text-xl">Fashion dan Digital</h2>
+            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full hover:bg-cyan-500">
+              <a href="#desainfashiondigital">Explore</a>
             </div>
           </div>
-          <div class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#76B852] to-[#8DC26F]">
+          <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" data-aos-duration="2500" class="flex flex-col items-center gap-2 rounded-sm p-2 bg-gradient-to-r from-[#76B852] to-[#8DC26F]">
             <img src="../dist/img/kategori/unicorn_6358383 1.png" alt="">
-            <h2>Desain Grafis dan Musik</h2>
-            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full">
-              <a href="">Explore</a>
+            <h2 class="font-semibold text-xl">Fashion dan Fotografi</h2>
+            <div class="bg-black my-2 py-2 rounded-sm text-sm w-full hover:bg-cyan-500">
+              <a href="#fashiondanfotografi">Explore</a>
             </div>
           </div>
         </div>
@@ -253,10 +265,9 @@
   </section>
   <section id="gallery">
     <div class="px-[7%] bg-gradient-to-t from-[#136A8A] to-[#267871] py-10">
-      <div class="flex flex-col gap-4 text-white">
-        <div class="font-poppins font-extrabold text-2xl mb-4">
-          <h1>Seni <span class="text-yellow-300">Fotografi</span> dan <span class="text-yellow-300">Puisi</span> </h1>
-          <hr class="w-[290px] mt-2">
+      <div class="flex flex-col gap-4 text-white" id="fotografidanmusik">
+        <div class="font-poppins font-extrabold text-3xl mb-4 shadow-md p-2">
+          <h1 class="text-center">SENI <span class="text-yellow-300">FOTOGRAFI</span> DAN <span class="text-yellow-300">PUISI</span> </h1>
         </div>
         <div class="swipersx mySwipersx">
           <div class="swiper-wrapper">
@@ -345,10 +356,9 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="flex flex-col gap-4 text-white">
-        <div class="font-poppins font-extrabold text-2xl mb-4 mt-8">
-          <h1>Seni <span class="text-yellow-300">Desain Grafis</span> dan <span class="text-yellow-300">Musik</span> </h1>
-          <hr class="w-[356px] mt-2">
+      <div class="flex flex-col gap-4 text-white" id="desaingrafisdanmusik">
+        <div class="font-poppins font-extrabold text-3xl mb-4 mt-8 shadow-md p-2">
+          <h1 class="text-center">SENI <span class="text-yellow-300">DESAIN GRAFIS</span> DAN <span class="text-yellow-300">MUSIK</span> </h1>
         </div>
         <div class="swipersx mySwipersx">
           <div class="swiper-wrapper">
@@ -437,10 +447,9 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="flex flex-col gap-4 text-white">
-        <div class="font-poppins font-extrabold text-2xl mb-4 mt-8">
-          <h1>Seni <span class="text-yellow-300">Desain Fashion</span> dan <span class="text-yellow-300">Digital</span> </h1>
-          <hr class="w-[356px] mt-2">
+      <div class="flex flex-col gap-4 text-white" id="desainfashiondigital">
+        <div class="font-poppins font-extrabold text-3xl mb-4 mt-8 shadow-md p-2">
+          <h1 class="text-center">SENI <span class="text-yellow-300">DESAIN FASHION</span> DAN <span class="text-yellow-300">DIGITAL</span> </h1>
         </div>
         <div class="swipersx mySwipersx">
           <div class="swiper-wrapper">
@@ -529,10 +538,9 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="flex flex-col gap-4 text-white">
-        <div class="font-poppins font-extrabold text-2xl mb-4 mt-8">
-          <h1>Seni <span class="text-yellow-300">Fashion</span> dan <span class="text-yellow-300">Fotografi</span> </h1>
-          <hr class="w-[356px] mt-2">
+      <div class="flex flex-col gap-4 text-white" id="fashiondanfotografi">
+        <div class="font-poppins font-extrabold text-3xl shadow-md p-2 mb-4 mt-8">
+          <h1 class="text-center">SENI <span class="text-yellow-300">FASHION</span> DAN <span class="text-yellow-300">FOTOGRAFI</span> </h1>
         </div>
         <div class="swipersx mySwipersx">
           <div class="swiper-wrapper">
@@ -618,7 +626,7 @@
       </div>
     </div>
   </section>
-  <section id="contact us">
+  <section id="contactus">
     <div class="flex flex-col items-center px-[7%] py-24 bg-[#222831]">
       <div class="flex lg:flex-row flex-col xl:gap-40 lg:gap-20">
         <div>
@@ -635,14 +643,14 @@
           </div>
           <div>
             <h1 class="mt-[10px] font-bold ">Ibrahim Mumtaz Samadikun</h1>
-            <p class="mt-[10px] text-[15px]">Jl. Dewa Ujung Rt. 013/007 NO 32, Ciracas</p>
-            <p class="mt-[10px] text-[15px]">+62 81906738256</p>
+            <p class="mt-[10px] text-[15px]">Jl. Pitara Gg. Dukuh, Pancoran Mas, Kota Depok</p>
+            <p class="mt-[10px] text-[15px]">+62 82111303192</p>
             <button class=" bg-white py-2 px-4 rounded-[22px] text-black mt-[20px] ">mumtazsamadikun765@gmail.com</button>
           </div>
           <div>
             <h1 class="mt-[10px] font-bold">Rayner Aditya Radjasa</h1>
-            <p class="mt-[10px] text-[15px]">Jl. Dewa Ujung Rt. 013/007 NO 32, Ciracas</p>
-            <p class="mt-[10px] text-[15px]">+62 81906738256</p>
+            <p class="mt-[10px] text-[15px]">Jl. Kruing, Baktijaya, Sukmajaya, Depok</p>
+            <p class="mt-[10px] text-[15px]">+62 895322260433</p>
             <button class="bg-white py-2 px-3 rounded-[22px] text-black mt-[20px]" >rayner.aditya.radjasa@gmail.com</button>
           </div>
         </div>
@@ -729,46 +737,6 @@
       </div>
     </div>
   </section>  
-<<<<<<< HEAD
-=======
-  <section id="contact">
-    <div class="flex justify-center py-24 gap-28 mb-[20px] bg-[#222831]">
-      <div>
-        <img src="./img/contact us/ibrahim.png" alt="" height="300px" >
-        <img src="./img/contact us/rayner.png" alt="" height="300px" class=" mt-[10px]">
-        <img src="./img/contact us/wildan.png" alt="" height="300px" class=" mt-[10px]">
-      </div>
-      <div>
-        <div>
-          <h1 class=" text-[64px] font-Jua text-[#FBFF21]">Contact Us</h1>
-          <p class=" font-BalsamiqSans trackin-[1.5px] text-[#95B6FF] text-[24px]">Let`s Join with US</p>
-        </div>
-        <div class=" bg-[#767373]  h-[1px] mt-[10px] w-[500px]">
-        </div>
-        <div class="text-white grid grid-cols-2 mt-[20px]">
-          <div>
-            <h1 class="mt-[10px] font-bold text-[20px]">Wildan Zulfikar</h1>
-            <p class="mt-[10px] text-[15px]">Jl. Dewa Ujung Rt. 013/007 NO 32, Ciracas</p>
-            <p class="mt-[10px] text-[15px]">+62 81906738256</p>
-            <button class=" bg-white py-2 px-3 rounded-[22px] text-black mt-[20px]">wildanzulfikar811@gmail.com  +</button>
-          </div>
-          <div>
-            <h1 class="mt-[10px] font-bold ">Ibrahim Mumtaz Samadikun</h1>
-            <p class="mt-[10px] text-[15px]">Jl. Pitara Gg. Dukuh, Pancoran Mas, Kota Depok</p>
-            <p class="mt-[10px] text-[15px]">+62 82111303192</p>
-            <button class=" bg-white py-2 px-4 rounded-[22px] text-black mt-[20px] ">mumtazsamadikun765@gmail.com  +</button>
-          </div>
-          <div class="mt-[90px]">
-            <h1 class="mt-[10px] font-bold">Rayner Aditya Radjasa</h1>
-            <p class="mt-[10px] text-[15px]">Jl. Kruing, Baktijaya, Sukmajaya, Depok</p>
-            <p class="mt-[10px] text-[15px]">+62 895322260433</p>
-            <button class="bg-white py-2 px-3 rounded-[22px] text-black mt-[20px]" >rayner.aditya.radjasa@gmail.com  +</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
->>>>>>> 6a685c0d553c3c9096106e325a7dceda6ea6bc4c
   <section id="footer">
     <div class="grid grid-cols-2 lg:grid-cols-4 px-[7%] gap-28 mt-8 mb-[40px]">
       <div>
@@ -778,10 +746,10 @@
       <div>
         <h1 class="lg:text-[30px] text-[20px] font-bold font-poppins">Navigasi</h1>
         <ul class="text-gray-600 mt-[30px] text-[20px]">
-          <li ><a href="" class="hover:text-gray-800 font-roboto">Home</a></li>
-          <li><a href="" class="hover:text-gray-800 font-roboto">Galery</a></li>
-          <li><a href="" class="hover:text-gray-800 font-roboto">About</a></li>
-          <li><a href="" class="hover:text-gray-800 font-roboto">Contact Us</a></li>
+          <li ><a href="#home" class="font-roboto hover:text-cyan-500">Home</a></li>
+          <li><a href="#gallery" class="font-roboto hover:text-cyan-500">Galery</a></li>
+          <li><a href="#about" class="font-roboto hover:text-cyan-500">About</a></li>
+          <li><a href="#contactus" class="font-roboto hover:text-cyan-500">contactus</a></li>
         </ul>
       </div>
       <div>
@@ -879,205 +847,201 @@
         <p class="border-b-2">Gorillaz</p>
       </div>
       <img src="../dist/img/desainggrafisdanmusik/Saturn Barz (Spirit House) - Gorillaz.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-<<<<<<< HEAD
       <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Desainer grafis dan musisi berkolaborasi untuk membuat video musik dalam format virtual reality. Pengguna bisa masuk ke dunia virtual yang sepenuhnya imersif, di mana musik dan visual bergabung untuk menciptakan pengalaman sensorik yang kuat. Video musik "Saturnz Barz (Spirit House)" oleh Gorillaz, yang dirilis dalam versi VR, memungkinkan penggemar merasakan video musik dalam dunia virtual.</p>
     </div>
   </div>
-=======
-      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Desainer grafis dan musisi berkolaborasi untuk membuat video musik dalam format virtual reality. Pengguna bisa masuk ke dunia virtual yang sepenuhnya imersif, di mana musik dan visual bergabung untuk menciptakan pengalaman sensorik yang kuat. Video musik "Saturnz Barz (Spirit House)" oleh Gorillaz, yang dirilis dalam versi VR, memungkinkan penggemar merasakan video musik dalam dunia virtual.
+  <div id="modal7" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal7')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">You Should See Me in a Crown </h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Billie Eilish x Takashi Murakami</p>
+      </div>
+      <img src="../dist/img/desainggrafisdanmusik/You Should See Me in a Crown – Billie Eilish x Takashi Murakami.png" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Billie Eilish telah merilis video musik untuk single barunya, 'you should see me in a crown' secara eksklusif di Apple Music. Menariknya klip dengan konsep animasi ini dikerjakan oleh seniman kontemporer kenamaan asal Jepang, Takashi Murakami. Di dalamnya kita bisa melihat karakter khas Billie, BLOHSH, yang menjaga sebuah kota sebelum ia kemudian malih rupa menjadi laba-laba raksasa yang malah memporak-porandakan kota tersebut.
+        Kolaborasi antara desainer grafis dan musisi untuk membuat video lirik interaktif, di mana penonton bisa mengklik atau menyentuh layar untuk mengubah gaya visual dari teks lirik, warna, atau elemen grafis lainnya seiring lagu berjalan. Murakami menyebutkan jika ia perlu 8 bulan untuk menyelesaikan klip ini. Billie sendiri mengaku merasa bangga bisa berkolaborasi bersama sang seniman. 
       </p>
     </div>
   </div>
-</div>
-<div id="modal7" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal7')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">You Should See Me in a Crown </h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Billie Eilish x Takashi Murakami</p>
+  <div id="modal8" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal8')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">A Moon Shape Pool </h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Radiohead</p>
+      </div>
+      <img src="../dist/img/desainggrafisdanmusik/A Moon Shape Pool – Radiohead.png" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">A Moon Shaped Pool menyajikan musik yang menyusur, datar, dan nyaris tanpa emosi. Beragam unsur suara yang muncul dalam lagu adalah hasil kreasi Jonny Greenwood yang dikenal gemar memainkan semua benda yang bisa menghasilkan audio. Di sinilah Radiohead mulai memainkan emosi pendengar. Lagu-lagu nya cukup menguras energi, kadang terdengar ringan dengan balutan musik orkestra, kadang terasa berat dengan suara latar yang menghunjam.
+        Sampul album yang dibuat oleh seniman Stanley Donwood, dengan versi digital yang menggunakan efek interaktif untuk mencerminkan mood setiap lagu. Seorang seniman visual menciptakan sampul album yang memvisualisasikan konsep musik secara mendalam, dengan elemen interaktif pada sampul digital yang berubah saat lagu tertentu diputar.      
+      </p>
     </div>
-    <img src="../dist/img/desainggrafisdanmusik/You Should See Me in a Crown – Billie Eilish x Takashi Murakami.png" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Billie Eilish telah merilis video musik untuk single barunya, 'you should see me in a crown' secara eksklusif di Apple Music. Menariknya klip dengan konsep animasi ini dikerjakan oleh seniman kontemporer kenamaan asal Jepang, Takashi Murakami. Di dalamnya kita bisa melihat karakter khas Billie, BLOHSH, yang menjaga sebuah kota sebelum ia kemudian malih rupa menjadi laba-laba raksasa yang malah memporak-porandakan kota tersebut.
-      Kolaborasi antara desainer grafis dan musisi untuk membuat video lirik interaktif, di mana penonton bisa mengklik atau menyentuh layar untuk mengubah gaya visual dari teks lirik, warna, atau elemen grafis lainnya seiring lagu berjalan. Murakami menyebutkan jika ia perlu 8 bulan untuk menyelesaikan klip ini. Billie sendiri mengaku merasa bangga bisa berkolaborasi bersama sang seniman. 
-    </p>
   </div>
-</div>
-<div id="modal8" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal8')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">A Moon Shape Pool </h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Radiohead</p>
+  <div id="modal9" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal9')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Fell In Love With A Girl</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">The White Stripes</p>
+      </div>
+      <img src="../dist/img/desainggrafisdanmusik/Fell in Love With a Girl – The White Stripes.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Video musik stop-motion yang dibuat menggunakan LEGO oleh Grup Band The White Stripes pada tahun 2001 merupakan wujud dari implementasi kolaborasi antara desain grafis dengan Seni Musik. “Fell In Love With A Girl” dirilis sebagai single kedua dari White Blood Cells. Video untuk lagu ini adalah salah satu “film bata” pertama yang mendapatkan perhatian utama dari publik. The White Stripes menciptakan visual yang dinamis dan kreatif, sesuai dengan ritme cepat dan sederhana dari lagu ini. Video ini pun sukses menduduki posisi teratas dalam daftar video terbaik pada masa itu versi Pitchfork.
+      </p>
     </div>
-    <img src="../dist/img/desainggrafisdanmusik/A Moon Shape Pool – Radiohead.png" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">A Moon Shaped Pool menyajikan musik yang menyusur, datar, dan nyaris tanpa emosi. Beragam unsur suara yang muncul dalam lagu adalah hasil kreasi Jonny Greenwood yang dikenal gemar memainkan semua benda yang bisa menghasilkan audio. Di sinilah Radiohead mulai memainkan emosi pendengar. Lagu-lagu nya cukup menguras energi, kadang terdengar ringan dengan balutan musik orkestra, kadang terasa berat dengan suara latar yang menghunjam.
-      Sampul album yang dibuat oleh seniman Stanley Donwood, dengan versi digital yang menggunakan efek interaktif untuk mencerminkan mood setiap lagu. Seorang seniman visual menciptakan sampul album yang memvisualisasikan konsep musik secara mendalam, dengan elemen interaktif pada sampul digital yang berubah saat lagu tertentu diputar.      
-    </p>
   </div>
-</div>
-<div id="modal9" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal9')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Fell In Love With A Girl</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">The White Stripes</p>
+  <div id="modal10" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal10')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">The Formation World Tour</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Beyonce</p>
+      </div>
+      <img src="../dist/img/desainggrafisdanmusik/The Formation World Tour – Beyonce.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Formation World Tour merupakan tur konser ketujuh dari Beyonce. Tur ini untuk mendukung album studio keenamnya, Lemonade. Tur ini dimulai pada 27 April 2016, di Marlins Park di Miami, Florida, dan berakhir di Metlife Stadium di East Rutherford, New Jersey pada 7 Oktober 2016. Titik fokus dari panggung utama tur ini adalah sebuah kubus berputar setinggi 60 kaki, yang dijuluki 'Monolith' oleh para desainer. Panggung besar dengan visual dinamis yang dirancang untuk menceritakan narasi seiring dengan penampilan musiknya, menggunakan proyeksi dan cahaya. 
+      </p>
     </div>
-    <img src="../dist/img/desainggrafisdanmusik/Fell in Love With a Girl – The White Stripes.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Video musik stop-motion yang dibuat menggunakan LEGO oleh Grup Band The White Stripes pada tahun 2001 merupakan wujud dari implementasi kolaborasi antara desain grafis dengan Seni Musik. “Fell In Love With A Girl” dirilis sebagai single kedua dari White Blood Cells. Video untuk lagu ini adalah salah satu “film bata” pertama yang mendapatkan perhatian utama dari publik. The White Stripes menciptakan visual yang dinamis dan kreatif, sesuai dengan ritme cepat dan sederhana dari lagu ini. Video ini pun sukses menduduki posisi teratas dalam daftar video terbaik pada masa itu versi Pitchfork.
-    </p>
   </div>
-</div>
-<div id="modal10" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal10')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">The Formation World Tour</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Beyonce</p>
+  <div id="modal11" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal11')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">The Galaxy Dress</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">CuteCircuit</p>
+      </div>
+      <img src="../dist/img/desainFashionandDigital/The Galaxy Dress - CUTECIRCUIT.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Didirikan oleh Ryan Genz dan Francesca Rosella, CuteCircuit yang berkantor pusat di London memproduksi pakaian dan aksesori yang menggabungkan bidang komputasi yang dapat dikenakan dan teknologi telekomunikasi, sehingga menciptakan antarmuka baru yang menarik. 
+        Galaxy Dress dari CuteCircuit disulam dengan 24.000 piksel berwarna penuh.Gaun ini menggunakan piksel penuh warna terkecil yang tersedia, yang memiliki ketebalan yang sebanding dengan kertas
+      </p>
     </div>
-    <img src="../dist/img/desainggrafisdanmusik/The Formation World Tour – Beyonce.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Formation World Tour merupakan tur konser ketujuh dari Beyonce. Tur ini untuk mendukung album studio keenamnya, Lemonade. Tur ini dimulai pada 27 April 2016, di Marlins Park di Miami, Florida, dan berakhir di Metlife Stadium di East Rutherford, New Jersey pada 7 Oktober 2016. Titik fokus dari panggung utama tur ini adalah sebuah kubus berputar setinggi 60 kaki, yang dijuluki 'Monolith' oleh para desainer. Panggung besar dengan visual dinamis yang dirancang untuk menceritakan narasi seiring dengan penampilan musiknya, menggunakan proyeksi dan cahaya. 
-    </p>
   </div>
-</div>
-<div id="modal11" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal11')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">The Galaxy Dress</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">CuteCircuit</p>
+  <div id="modal12" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal12')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Project Jacquard</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Google dan Levi’s</p>
+      </div>
+      <img src="../dist/img/desainFashionandDigital/Project Jacquard - Google dan Levi’s.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Project Jaquard adalah sebuah bentuk kolaborasi antara Google dan Levi’s. Ini adalah pakaian pertama yang dapat terhubung untuk membantu kita terbebas dari perangkat. Pakaian ini menggabungkan teknologi Jacquard by Google secara sempurna untuk melakukan tugas-tugas digital, seperti navigasi, komunikasi, dan pemutaran musik dengan beberapa kali usapan atau ketukan pada lengan baju.
+      </p>
     </div>
-    <img src="../dist/img/desainFashionandDigital/The Galaxy Dress - CUTECIRCUIT.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Didirikan oleh Ryan Genz dan Francesca Rosella, CuteCircuit yang berkantor pusat di London memproduksi pakaian dan aksesori yang menggabungkan bidang komputasi yang dapat dikenakan dan teknologi telekomunikasi, sehingga menciptakan antarmuka baru yang menarik. 
-      Galaxy Dress dari CuteCircuit disulam dengan 24.000 piksel berwarna penuh.Gaun ini menggunakan piksel penuh warna terkecil yang tersedia, yang memiliki ketebalan yang sebanding dengan kertas
-    </p>
   </div>
-</div>
-<div id="modal12" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal12')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Project Jacquard</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Google dan Levi’s</p>
+  <div id="modal13" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal13')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Digital Skirt</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Studio XO</p>
+      </div>
+      <img src="../dist/img/desainFashionandDigital/Studio XO Digital Skirt.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Studio XO adalah perusahaan yang berkantor pusat di London yang merancang pengalaman mode interaktif di persimpangan revolusi digital-fisik . Perusahaan ini telah berkolaborasi dengan industri seni, hiburan, dan permainan untuk menciptakan teknologi yang dapat dikenakan.
+        Salah satu dari sekian banyak pakaian futuristik mereka adalah gaun "Bubelle"! Gaun Bubelle terdiri dari dua lapisan, lapisan dalam berupa sensor biometrik yang menangkap emosi seseorang dan menerjemahkannya ke dalam bentuk cahaya, dan lapisan luar berupa tekstil.      
+      </p>
     </div>
-    <img src="../dist/img/desainFashionandDigital/Project Jacquard - Google dan Levi’s.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Project Jaquard adalah sebuah bentuk kolaborasi antara Google dan Levi’s. Ini adalah pakaian pertama yang dapat terhubung untuk membantu kita terbebas dari perangkat. Pakaian ini menggabungkan teknologi Jacquard by Google secara sempurna untuk melakukan tugas-tugas digital, seperti navigasi, komunikasi, dan pemutaran musik dengan beberapa kali usapan atau ketukan pada lengan baju.
-    </p>
   </div>
-</div>
-<div id="modal13" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal13')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Digital Skirt</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Studio XO</p>
+  <div id="modal14" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal14')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Spider Dress</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Anouk Wipprecht</p>
+      </div>
+      <img src="../dist/img/desainFashionandDigital/Spider Dress - Anouk Wipprecht.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Dikenal karena memadukan perangkat yang dapat dikenakan dan teknologi terkini, Anouk Wipprecht tidak asing lagi dengan bidang teknologi mode. Ciptaan terbarunya, Spider Dress 2.0, dilengkapi dengan chip Intel Edison yang membaca sinyal biologis untuk melindungi ruang pribadi pemakainya. Anouk menggunakan  perangkat lunak Magics dari Materialise  untuk membuat berkas kedap air sehingga desain yang indah dan rumit tersebut dapat dicetak 3D dengan sempurna. 
+      </p>
     </div>
-    <img src="../dist/img/desainFashionandDigital/Studio XO Digital Skirt.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Studio XO adalah perusahaan yang berkantor pusat di London yang merancang pengalaman mode interaktif di persimpangan revolusi digital-fisik . Perusahaan ini telah berkolaborasi dengan industri seni, hiburan, dan permainan untuk menciptakan teknologi yang dapat dikenakan.
-      Salah satu dari sekian banyak pakaian futuristik mereka adalah gaun "Bubelle"! Gaun Bubelle terdiri dari dua lapisan, lapisan dalam berupa sensor biometrik yang menangkap emosi seseorang dan menerjemahkannya ke dalam bentuk cahaya, dan lapisan luar berupa tekstil.      
-    </p>
   </div>
-</div>
-<div id="modal14" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal14')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Spider Dress</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Anouk Wipprecht</p>
+  <div id="modal15" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal15')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Wearable Solar Dress</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2">Pauline Van Dongen</p>
+      </div>
+      <img src="../dist/img/desainFashionandDigital/Wearable Solar Dress - Pauline Van Dongen.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Gaun ini dilengkapi dengan panel surya yang mampu menyimpan energi dari sinar matahari. Energi yang dikumpulkan dapat digunakan untuk mengisi daya perangkat digital seperti smartphone, menjadikannya kombinasi antara fashion berkelanjutan dan wearable tech.
+      </p>
     </div>
-    <img src="../dist/img/desainFashionandDigital/Spider Dress - Anouk Wipprecht.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Dikenal karena memadukan perangkat yang dapat dikenakan dan teknologi terkini, Anouk Wipprecht tidak asing lagi dengan bidang teknologi mode. Ciptaan terbarunya, Spider Dress 2.0, dilengkapi dengan chip Intel Edison yang membaca sinyal biologis untuk melindungi ruang pribadi pemakainya. Anouk menggunakan  perangkat lunak Magics dari Materialise  untuk membuat berkas kedap air sehingga desain yang indah dan rumit tersebut dapat dicetak 3D dengan sempurna. 
-    </p>
   </div>
-</div>
-<div id="modal15" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal15')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Wearable Solar Dress</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2">Pauline Van Dongen</p>
+  <div id="modal16" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal16')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Irving Penn & Issey Miyake</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2"></p>
+      </div>
+      <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Irving Penn & Issey Miyake.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Irving Penn bekerja di New York, Issey Miyake di Tokyo. Mereka mulai berkolaborasi pada tahun 1980-an, berbagi rasa saling menghormati dan semangat untuk berkreasi. Setiap musim Miyake akan mengirimkan koleksi pakaiannya kepada sang fotografer, dan Penn, yang terinspirasi dari pakaian tersebut, akan memilihnya. Hasil fotonya merupakan interpretasi baru dan menarik yang menggetarkan hati dan menginspirasi Miyake. Kolaborasi dan kegembiraan dalam berkreasi terus berlanjut selama 13 tahun, menghasilkan sekitar 250 foto dan pakaian yang terus bersinar terang.
+      </p>
     </div>
-    <img src="../dist/img/desainFashionandDigital/Wearable Solar Dress - Pauline Van Dongen.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Gaun ini dilengkapi dengan panel surya yang mampu menyimpan energi dari sinar matahari. Energi yang dikumpulkan dapat digunakan untuk mengisi daya perangkat digital seperti smartphone, menjadikannya kombinasi antara fashion berkelanjutan dan wearable tech.
-    </p>
   </div>
-</div>
-<div id="modal16" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal16')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Irving Penn & Issey Miyake</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2"></p>
+  <div id="modal17" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal17')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Nick Knight & Alexander McQueen</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2"></p>
+      </div>
+      <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Nick Knight & Alexander McQueen.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Nick Knight, salah satu fotografer mode paling terkenal di dunia, sering berkolaborasi dengan Alexander McQueen, seorang desainer yang dikenal karena pendekatan ekstrim dan dramatisnya terhadap fashion. Dalam banyak proyek, Knight menggabungkan fotografi dengan elemen digital dan seni visual untuk menciptakan gambar-gambar yang provokatif dan memukau.
+      </p>
     </div>
-    <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Irving Penn & Issey Miyake.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Irving Penn bekerja di New York, Issey Miyake di Tokyo. Mereka mulai berkolaborasi pada tahun 1980-an, berbagi rasa saling menghormati dan semangat untuk berkreasi. Setiap musim Miyake akan mengirimkan koleksi pakaiannya kepada sang fotografer, dan Penn, yang terinspirasi dari pakaian tersebut, akan memilihnya. Hasil fotonya merupakan interpretasi baru dan menarik yang menggetarkan hati dan menginspirasi Miyake. Kolaborasi dan kegembiraan dalam berkreasi terus berlanjut selama 13 tahun, menghasilkan sekitar 250 foto dan pakaian yang terus bersinar terang.
-    </p>
   </div>
-</div>
-<div id="modal17" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal17')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Nick Knight & Alexander McQueen</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2"></p>
+  <div id="modal18" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal18')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Guy Bourdin & Charles Jourdan</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2"></p>
+      </div>
+      <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Guy Bourdin & Charles Jourdan.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Seorang fotografer mode modern yang hebat, Bourdin meminjamkan pandangan surealisnya pada sepatu dan mode Charles Jourdan. Menciptakan komposisi yang penuh dengan gerakan, warna, dan sensualitas, kolaborasi perintis antara desainer dan fotografer ini masih memberikan pengaruh yang mendalam pada fotografi mode modern. Guy Bourdin, fotografer Prancis yang terkenal dengan gaya surreal dan provokatif, bekerja sama dengan desainer sepatu Charles Jourdan. Bourdin menciptakan iklan yang menantang norma dengan komposisi yang tidak biasa, warna-warna cerah, dan narasi visual yang misterius.
+      </p>
     </div>
-    <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Nick Knight & Alexander McQueen.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Nick Knight, salah satu fotografer mode paling terkenal di dunia, sering berkolaborasi dengan Alexander McQueen, seorang desainer yang dikenal karena pendekatan ekstrim dan dramatisnya terhadap fashion. Dalam banyak proyek, Knight menggabungkan fotografi dengan elemen digital dan seni visual untuk menciptakan gambar-gambar yang provokatif dan memukau.
-    </p>
   </div>
-</div>
-<div id="modal18" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal18')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Guy Bourdin & Charles Jourdan</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2"></p>
+  <div id="modal19" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal19')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Helmut Newton & Yves Saint Laurent</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2"></p>
+      </div>
+      <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Helmut Newton & Yves Saint Laurent.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Yves Saint Laurent dan Helmut Newton adalah dua perancang busana dan fotografer paling ikonik di abad ke-20. Yves Saint Laurent adalah perancang busana Prancis yang merevolusi industri mode dengan desainnya yang modern dan berani. Ia adalah perancang pertama yang memperkenalkan konsep pakaian siap pakai dan dikenal karena penggunaan warna dan motif yang berani. Helmut Newton adalah fotografer Jerman-Australia yang terkenal karena fotografi mode yang provokatif dan kontroversial.
+      </p>
     </div>
-    <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Guy Bourdin & Charles Jourdan.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Seorang fotografer mode modern yang hebat, Bourdin meminjamkan pandangan surealisnya pada sepatu dan mode Charles Jourdan. Menciptakan komposisi yang penuh dengan gerakan, warna, dan sensualitas, kolaborasi perintis antara desainer dan fotografer ini masih memberikan pengaruh yang mendalam pada fotografi mode modern. Guy Bourdin, fotografer Prancis yang terkenal dengan gaya surreal dan provokatif, bekerja sama dengan desainer sepatu Charles Jourdan. Bourdin menciptakan iklan yang menantang norma dengan komposisi yang tidak biasa, warna-warna cerah, dan narasi visual yang misterius.
-    </p>
   </div>
-</div>
-<div id="modal19" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal19')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Helmut Newton & Yves Saint Laurent</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2"></p>
+  <div id="modal20" class="modal overflow-auto">
+    <div class="modal-content " class="flex flex-col gap-3">
+      <span class="close" onclick="closeModal('modal20')">&times;</span>
+      <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Richard Avedon & Versace</h2>
+      <div class="flex flex-col items-center mb-6">
+        <img src="" alt="">
+        <p class="border-b-2"></p>
+      </div>
+      <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Richard Avedon & Versace.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
+      <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">David LaChapelle, dikenal dengan gaya fotografi yang flamboyan, penuh warna, dan berlebihan, berkolaborasi dengan merek fashion Diesel. LaChapelle membawa pendekatan uniknya ke dalam kampanye iklan Diesel, menggabungkan kritik sosial dengan estetika pop art yang mencolok.
+        Kampanye "Global Warming Ready" yang menggambarkan dunia yang terkena dampak perubahan iklim dengan cara yang satir dan visual yang kuat. Foto-foto ini menampilkan model dalam situasi absurd namun menggugah pemikiran, sambil tetap menonjolkan produk Diesel. Kolaborasi ini menegaskan kemampuan fashion dan fotografi untuk menyampaikan pesan sosial yang penting.      
+      </p>
     </div>
-    <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Helmut Newton & Yves Saint Laurent.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">Yves Saint Laurent dan Helmut Newton adalah dua perancang busana dan fotografer paling ikonik di abad ke-20. Yves Saint Laurent adalah perancang busana Prancis yang merevolusi industri mode dengan desainnya yang modern dan berani. Ia adalah perancang pertama yang memperkenalkan konsep pakaian siap pakai dan dikenal karena penggunaan warna dan motif yang berani. Helmut Newton adalah fotografer Jerman-Australia yang terkenal karena fotografi mode yang provokatif dan kontroversial.
-    </p>
   </div>
-</div>
-<div id="modal20" class="modal overflow-auto">
-  <div class="modal-content " class="flex flex-col gap-3">
-    <span class="close" onclick="closeModal('modal20')">&times;</span>
-    <h2 class="text-center font-extrabold text-2xl lg:text-7xl mb-6">Richard Avedon & Versace</h2>
-    <div class="flex flex-col items-center mb-6">
-      <img src="" alt="">
-      <p class="border-b-2"></p>
-    </div>
-    <img src="../dist/img/KolaborasiSeniFashiondanFotografi/Richard Avedon & Versace.jpg" alt="Robert frank" class="m-auto mt-4 mb-10 rounded-lg w-96"">
-    <p class="mt-8 text-justify text-base lg:text-xl lg:mx-48">David LaChapelle, dikenal dengan gaya fotografi yang flamboyan, penuh warna, dan berlebihan, berkolaborasi dengan merek fashion Diesel. LaChapelle membawa pendekatan uniknya ke dalam kampanye iklan Diesel, menggabungkan kritik sosial dengan estetika pop art yang mencolok.
-      Kampanye "Global Warming Ready" yang menggambarkan dunia yang terkena dampak perubahan iklim dengan cara yang satir dan visual yang kuat. Foto-foto ini menampilkan model dalam situasi absurd namun menggugah pemikiran, sambil tetap menonjolkan produk Diesel. Kolaborasi ini menegaskan kemampuan fashion dan fotografi untuk menyampaikan pesan sosial yang penting.      
-    </p>
-  </div>
-</div>
->>>>>>> 6a685c0d553c3c9096106e325a7dceda6ea6bc4c
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="../dist/js/Detail.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
